@@ -11,5 +11,6 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v2
 
-      - name: Run Pierre-Review
-        uses: kevinrpan/pierre-review@main
+      - name: pierre-review
+        uses: aummo/pierre-review@0.0.10
+            
